@@ -1,0 +1,28 @@
+:root{
+    --color-background: #fbde40;
+
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@347;400&family=Poppins:wght@100;200&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@347;400&family=Open+Sans:wght@300;500&family=Poppins:wght@100;200&family=Quicksand:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';
+
+}
+
+html,
+body{
+    background-color: var(--color-background);
+    height: 100vh;
+}
+
+#app{
+    background-color: var(--color-background);
+    height: 100%;
+    
+}
